@@ -9,7 +9,15 @@
   padding-bottom: 40px;
 }
 
-.button {
+.card-plan > .title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.card-plan > .button {
   display: inline-block;
   width: 160px;
   height: 50px;
