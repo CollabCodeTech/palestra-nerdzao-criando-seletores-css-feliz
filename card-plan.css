@@ -8,6 +8,7 @@
   padding-top: 80px;
   padding-bottom: 40px;
   color: #fff;
+  position: relative;
 }
 
 .card-plan > .title {
@@ -29,6 +30,13 @@
   margin-bottom: 40px;
 }
 
+.card-plan > .description {
+  font-size: 18px;
+  max-width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .card-plan > .button {
   display: inline-block;
   width: 160px;
@@ -40,6 +48,8 @@
   text-align: center;
   border-radius: 4px;
   cursor: pointer;
+  position: absolute;
+  bottom: 40px;
 
   box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.8);
   transition: box-shadow 200ms linear, transform 200ms linear;
