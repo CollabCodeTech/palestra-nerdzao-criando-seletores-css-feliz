@@ -39,4 +39,13 @@
   text-transform: uppercase;
   text-align: center;
   border-radius: 4px;
+  cursor: pointer;
+
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.8);
+  transition: box-shadow 200ms linear, transform 200ms linear;
+}
+
+.card-plan > .button:active {
+  transform: translateY(3px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.8);
 }
