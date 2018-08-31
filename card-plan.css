@@ -7,14 +7,26 @@
   text-align: center;
   padding-top: 80px;
   padding-bottom: 40px;
+  color: #fff;
 }
 
 .card-plan > .title {
-  color: #fff;
   font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 30px;
+}
+
+.card-plan > .price {
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.card-plan > .period {
+  font-size: 18px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-bottom: 40px;
 }
 
 .card-plan > .button {
@@ -24,7 +36,6 @@
   line-height: 50px;
   background-color: rgba(0, 0, 0, 0.4);
   font-size: 15px;
-  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
   border-radius: 4px;
